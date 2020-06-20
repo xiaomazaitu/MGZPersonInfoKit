@@ -8,7 +8,8 @@
 #define WGWidth [UIScreen mainScreen].bounds.size.width
 
 #import "MGZPersonInfoViewController.h"
-#import "CTMediator+TAPersonPrefrence.h"
+//#import "CTMediator+TAPersonPrefrence.h"
+#import <MGZPersonPrefrenceCategoryKit/CTMediator+TAPersonPrefrence.h>
 //#import "MGZPersonPrefrenceViewController.h"
 
 @interface MGZPersonInfoViewController ()
