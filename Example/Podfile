@@ -1,8 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/xiaomazaitu/MGZPersonSpecs.git'
 use_frameworks!
 
 platform :ios, '8.0'
 
 target 'MGZPersonInfoKit_Example' do
+  pod 'CTMediator'
+  pod 'MGZPersonPrefrenceCategoryKit'
   pod 'MGZPersonInfoKit', :path => '../'
 
   target 'MGZPersonInfoKit_Tests' do

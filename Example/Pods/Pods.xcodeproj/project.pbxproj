@@ -1,0 +1,1228 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E9A0A2DF079A5818284B03591A29CEB /* MGZPersonPrefrenceCategoryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58A22E7F2271364A75F39D4B7C3FA2B3 /* MGZPersonPrefrenceCategoryKit.framework */; };
+		211F8BEF2FD29E7D2259077510DAEE14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61119824400DD79A8FF103477FBA8F4C /* Foundation.framework */; };
+		257C9C878BC9A3BADEB982455F94A873 /* MGZPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF139ABE9585A7C4F326C494C13C7E49 /* MGZPersonInfoViewController.m */; };
+		34597982818C6767EE491DC195D7D7A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61119824400DD79A8FF103477FBA8F4C /* Foundation.framework */; };
+		378DECC153C6C863B019AFA51465949C /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C47E7958330B1EA043E0344E12E966 /* ReplaceMe.m */; };
+		3B158F681E64D7EB622C71B568E8F8AE /* Target_MGZPersonInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C194FE58D7975C4689FA2EA517D662 /* Target_MGZPersonInfoViewController.m */; };
+		3B94BEF000168E07EAC82C7A25A21458 /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7639E5C45AB2097573D5A934C107AE80 /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4610C7ABAADA32E0B3D394E1464D660C /* Pods-MGZPersonInfoKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E70372C3592699D2A2A787AD19C8CAC /* Pods-MGZPersonInfoKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46FD68F4F4AE4B9ED412D90EBFE44D1D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61119824400DD79A8FF103477FBA8F4C /* Foundation.framework */; };
+		4731D4CB78576EAD3C461B2602EEF905 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF886D255AA04EBC6A96E06DF8B1C108 /* CTMediator.m */; };
+		49E8DDCA315F341CEA717249E89847FE /* Pods-MGZPersonInfoKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D95048D0816D142FE985A1813C0EDC9C /* Pods-MGZPersonInfoKit_Tests-dummy.m */; };
+		4F58E17DAF09A3035A146DDDDFEFE84B /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = A3DD6C0029D6B5DB514B1CB452833D0E /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B09F833B137EA6A53A2B83D8F085635 /* MGZPersonPrefrenceCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 961204CCD84533F7BF587B8DDBBF8EBF /* MGZPersonPrefrenceCategoryKit-dummy.m */; };
+		68209B49239AA261359906CA68C4A905 /* CTMediator+TAPersonPrefrence.m in Sources */ = {isa = PBXBuildFile; fileRef = 582615C2536F9AE888F6577E38BD7747 /* CTMediator+TAPersonPrefrence.m */; };
+		68273226A71E12A7E668E57B69FF1C29 /* Pods-MGZPersonInfoKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 489B81D76C246D6C614C50372F06212F /* Pods-MGZPersonInfoKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A3A726BA37ACDC43642F29A8E1B60BA /* CTMediator+HandyTools.h in Headers */ = {isa = PBXBuildFile; fileRef = DBEC9784FEDC70C633ACA855394A0EAC /* CTMediator+HandyTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		76191F0ECC215D5AE64F77A6993B817D /* CTMediator+TAPersonPrefrence.h in Headers */ = {isa = PBXBuildFile; fileRef = A794F7143292FFC3CEDD9D144ADEC2F9 /* CTMediator+TAPersonPrefrence.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7CDF05853A84B04E83E87923D9F27CB6 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ABA1FEF1EE9F0D1E77DEDFA7C3E8A05 /* ReplaceMe.m */; };
+		7E8CB15014D6EF9B3E3FFB17DB01BE0F /* MGZPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3867AF3188D97260D44E54F2B5C1E30F /* MGZPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */ = {isa = PBXBuildFile; fileRef = D9E045540623AAFCA3E33B06A058D895 /* CTMediator+HandyTools.m */; };
+		80C7469D7E3DA0157245061BAFADB101 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385A29DF85820F64070E78467ADEDF84 /* CTMediator.framework */; };
+		85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D5B0BA1BFCE358878AF0D2C32B5EB5C9 /* CTMediator-dummy.m */; };
+		89F16BC2853987268A3711C5C5B374E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61119824400DD79A8FF103477FBA8F4C /* Foundation.framework */; };
+		8B4F65C043CE8AAC070A8508069B4BC9 /* Pods-MGZPersonInfoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE017AD3F5DFDF09F53179D5106EE0A8 /* Pods-MGZPersonInfoKit_Example-dummy.m */; };
+		AEECAB254CB0E0BDAEE1E58A794E1BBD /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 385A29DF85820F64070E78467ADEDF84 /* CTMediator.framework */; };
+		B313C3D898CCDC260CEA783A19E6273E /* MGZPersonPrefrenceCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24218D3B63040519D5278547CE87FE0E /* MGZPersonPrefrenceCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E9F30902396968DF313B98CAA36E66 /* Target_MGZPersonInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0539B6B7CDAB09FA400E8E47B9FE2F9A /* Target_MGZPersonInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE286BB10A10BF0BD56B7CE0F5EE8E30 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196AECE50BF7AF933C83594B4E3B7007 /* UIKit.framework */; };
+		F49914AC09AD6E3E619FC7A31668D982 /* MGZPersonInfoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B5BCC104958D3E862252D189440C75 /* MGZPersonInfoKit-dummy.m */; };
+		F76C265DCB1B881C0D235817EE101F52 /* MGZPersonInfoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A33EA1C3DB0CAA8EF88A4EAD8007B4 /* MGZPersonInfoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCC445FF4B68E7A51FECA6784CC84E51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61119824400DD79A8FF103477FBA8F4C /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C06ABF70E70EA74972BFCCF71C3B318 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		651149551F8F2E9CABB91F80DDDA4F37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A104F7E5360CC9D3D920026600B61B21;
+			remoteInfo = MGZPersonPrefrenceCategoryKit;
+		};
+		6B08D32F9105FAD2B4AD6D76D3C53FA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		7EB7EBE0BC198F32C1A877A6C14D84E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B730EBE3D3F960308B192B15E34B53D;
+			remoteInfo = "Pods-MGZPersonInfoKit_Example";
+		};
+		8DDFDC11FB7421866A54F97FD80133A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		B9BCCC36A420AF97DF8EB041C858C769 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A104F7E5360CC9D3D920026600B61B21;
+			remoteInfo = MGZPersonPrefrenceCategoryKit;
+		};
+		C6BC35EAB6388E4D611A7A971CE60732 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C211DC4CF16E3A1D688143B0675E05E8;
+			remoteInfo = MGZPersonInfoKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0539B6B7CDAB09FA400E8E47B9FE2F9A /* Target_MGZPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = Target_MGZPersonInfoViewController.h; sourceTree = "<group>"; };
+		0E70372C3592699D2A2A787AD19C8CAC /* Pods-MGZPersonInfoKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGZPersonInfoKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		195B1CDD2662171CEE3F986C8BE466A5 /* MGZPersonInfoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGZPersonInfoKit.xcconfig; sourceTree = "<group>"; };
+		196AECE50BF7AF933C83594B4E3B7007 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		1BBDB3A74511B07BB37DED90B38C39F9 /* Pods-MGZPersonInfoKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGZPersonInfoKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		24218D3B63040519D5278547CE87FE0E /* MGZPersonPrefrenceCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGZPersonPrefrenceCategoryKit-umbrella.h"; sourceTree = "<group>"; };
+		2A776B550BCCA8182F1280DD56D4F33B /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		3401A7A8DB8B1DA322CC1ECBB00D2843 /* MGZPersonPrefrenceCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGZPersonPrefrenceCategoryKit.framework; path = MGZPersonPrefrenceCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		347CFBC3831D5417B0CB75EF3BE5A42D /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		385A29DF85820F64070E78467ADEDF84 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3867AF3188D97260D44E54F2B5C1E30F /* MGZPersonInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MGZPersonInfoViewController.h; sourceTree = "<group>"; };
+		3ABDE49F24FC398A8E8015A7EB8A2564 /* MGZPersonPrefrenceCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MGZPersonPrefrenceCategoryKit.xcconfig; sourceTree = "<group>"; };
+		489B81D76C246D6C614C50372F06212F /* Pods-MGZPersonInfoKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MGZPersonInfoKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		582615C2536F9AE888F6577E38BD7747 /* CTMediator+TAPersonPrefrence.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+TAPersonPrefrence.m"; path = "MGZPersonPrefrenceCategoryKit/Classes/PrefrenceCategory/CTMediator+TAPersonPrefrence.m"; sourceTree = "<group>"; };
+		588E43471402808782AECC84C172BDB4 /* Pods-MGZPersonInfoKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGZPersonInfoKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58A22E7F2271364A75F39D4B7C3FA2B3 /* MGZPersonPrefrenceCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGZPersonPrefrenceCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		61119824400DD79A8FF103477FBA8F4C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		686D7B401D4829BC10C303A107CCC082 /* Pods_MGZPersonInfoKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGZPersonInfoKit_Example.framework; path = "Pods-MGZPersonInfoKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E433E4A7FF729156A78B9F8FD616FB0 /* MGZPersonInfoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGZPersonInfoKit-prefix.pch"; sourceTree = "<group>"; };
+		7015F00069B7D779C8B76BC2D4797D98 /* Pods-MGZPersonInfoKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGZPersonInfoKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		7639E5C45AB2097573D5A934C107AE80 /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		77EA2B4A4E7EC363B1419F63982F407E /* MGZPersonInfoKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MGZPersonInfoKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		79E68EE886FCD9DF4CA0CA317207AEAE /* Pods-MGZPersonInfoKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGZPersonInfoKit_Example.modulemap"; sourceTree = "<group>"; };
+		7ABA1FEF1EE9F0D1E77DEDFA7C3E8A05 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MGZPersonPrefrenceCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		81FECD370CDB4C02139C5313AD94F7BD /* Pods-MGZPersonInfoKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGZPersonInfoKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8E7B2A447B78D85665DED924FE71D14C /* Pods-MGZPersonInfoKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGZPersonInfoKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9011A5A997A49D967C57080B0CD01C64 /* Pods_MGZPersonInfoKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MGZPersonInfoKit_Tests.framework; path = "Pods-MGZPersonInfoKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		90ED3086F194D94F467147CD33C775A1 /* Pods-MGZPersonInfoKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MGZPersonInfoKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		92C194FE58D7975C4689FA2EA517D662 /* Target_MGZPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = Target_MGZPersonInfoViewController.m; sourceTree = "<group>"; };
+		94A33EA1C3DB0CAA8EF88A4EAD8007B4 /* MGZPersonInfoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGZPersonInfoKit-umbrella.h"; sourceTree = "<group>"; };
+		961204CCD84533F7BF587B8DDBBF8EBF /* MGZPersonPrefrenceCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGZPersonPrefrenceCategoryKit-dummy.m"; sourceTree = "<group>"; };
+		992376963CA2F2EA10F5A3A138101171 /* MGZPersonInfoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGZPersonInfoKit-Info.plist"; sourceTree = "<group>"; };
+		9A0812828194667F416376F93F088F67 /* Pods-MGZPersonInfoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGZPersonInfoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9A112E29C9A69B344354F8F9068C983F /* MGZPersonInfoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGZPersonInfoKit.modulemap; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2413BCA5DE7AC469D70AC3F84D0B12D /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		A3DD6C0029D6B5DB514B1CB452833D0E /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		A794F7143292FFC3CEDD9D144ADEC2F9 /* CTMediator+TAPersonPrefrence.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+TAPersonPrefrence.h"; path = "MGZPersonPrefrenceCategoryKit/Classes/PrefrenceCategory/CTMediator+TAPersonPrefrence.h"; sourceTree = "<group>"; };
+		AE017AD3F5DFDF09F53179D5106EE0A8 /* Pods-MGZPersonInfoKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGZPersonInfoKit_Example-dummy.m"; sourceTree = "<group>"; };
+		B16FC061F9BC98197C312E108E685B98 /* MGZPersonPrefrenceCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MGZPersonPrefrenceCategoryKit.modulemap; sourceTree = "<group>"; };
+		BAE6DB187C2762EF4F47E09216A4532E /* Pods-MGZPersonInfoKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGZPersonInfoKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BC009ACC9B6912D0B14CBBA0CCEBFBDE /* Pods-MGZPersonInfoKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MGZPersonInfoKit_Tests.modulemap"; sourceTree = "<group>"; };
+		BF139ABE9585A7C4F326C494C13C7E49 /* MGZPersonInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MGZPersonInfoViewController.m; sourceTree = "<group>"; };
+		BF886D255AA04EBC6A96E06DF8B1C108 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		C03FBDA22BC81E9313A8F65FC2E0D43C /* Pods-MGZPersonInfoKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MGZPersonInfoKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D5B0BA1BFCE358878AF0D2C32B5EB5C9 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		D698C4187310BF968B4B725F06FD45E5 /* Pods-MGZPersonInfoKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MGZPersonInfoKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D6C47E7958330B1EA043E0344E12E966 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MGZPersonInfoKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		D8499B3AF2D78C5F34C3A6240C7006E5 /* MGZPersonPrefrenceCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MGZPersonPrefrenceCategoryKit-prefix.pch"; sourceTree = "<group>"; };
+		D95048D0816D142FE985A1813C0EDC9C /* Pods-MGZPersonInfoKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MGZPersonInfoKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		D98F705E48B588C33EBF8DB8B292DD20 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D9E045540623AAFCA3E33B06A058D895 /* CTMediator+HandyTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+HandyTools.m"; path = "CTMediator/CTMediator/CTMediator+HandyTools.m"; sourceTree = "<group>"; };
+		DBEC9784FEDC70C633ACA855394A0EAC /* CTMediator+HandyTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+HandyTools.h"; path = "CTMediator/CTMediator/CTMediator+HandyTools.h"; sourceTree = "<group>"; };
+		E82158B737A6F007AD27916286E3A466 /* MGZPersonInfoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MGZPersonInfoKit.framework; path = MGZPersonInfoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7DDDE2CD4A44CFDECA87013247F099 /* MGZPersonPrefrenceCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MGZPersonPrefrenceCategoryKit-Info.plist"; sourceTree = "<group>"; };
+		EEED5D2B5F6FEC4E81B9F2BDB0CBB625 /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		F0B5BCC104958D3E862252D189440C75 /* MGZPersonInfoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MGZPersonInfoKit-dummy.m"; sourceTree = "<group>"; };
+		F0DD8524E102A55DA029050F89AB21D6 /* Pods-MGZPersonInfoKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MGZPersonInfoKit_Example-Info.plist"; sourceTree = "<group>"; };
+		F1A4158E23403A33610751228F49C0D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		125C52B4A0B77EDE6574BFA6FE1C7EB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C7469D7E3DA0157245061BAFADB101 /* CTMediator.framework in Frameworks */,
+				89F16BC2853987268A3711C5C5B374E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42843E18D90B50D23BF68315BF9C8CA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34597982818C6767EE491DC195D7D7A7 /* Foundation.framework in Frameworks */,
+				EE286BB10A10BF0BD56B7CE0F5EE8E30 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C7D667722E9D4A4A34A32F6CD3048D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				211F8BEF2FD29E7D2259077510DAEE14 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF57D0630E38762E430F15302083FBC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC445FF4B68E7A51FECA6784CC84E51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04C3913CA72C7A9836C2587B87BACEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AEECAB254CB0E0BDAEE1E58A794E1BBD /* CTMediator.framework in Frameworks */,
+				46FD68F4F4AE4B9ED412D90EBFE44D1D /* Foundation.framework in Frameworks */,
+				0E9A0A2DF079A5818284B03591A29CEB /* MGZPersonPrefrenceCategoryKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0916C547DA43AABD3E26803F3038B6CE /* MGZPersonInfoKit */ = {
+			isa = PBXGroup;
+			children = (
+				D6C47E7958330B1EA043E0344E12E966 /* ReplaceMe.m */,
+				5BF05163DF3DC2B583471501164845FD /* Pod */,
+				912E4466704F89DFDE246C957A480AA8 /* Support Files */,
+				A1393A0EBAB508E6773E4F583A36B291 /* TAPersonInfo */,
+			);
+			name = MGZPersonInfoKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		24806D3A9A8F75D19B8974F5E4A56BF5 /* Pods-MGZPersonInfoKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				79E68EE886FCD9DF4CA0CA317207AEAE /* Pods-MGZPersonInfoKit_Example.modulemap */,
+				C03FBDA22BC81E9313A8F65FC2E0D43C /* Pods-MGZPersonInfoKit_Example-acknowledgements.markdown */,
+				1BBDB3A74511B07BB37DED90B38C39F9 /* Pods-MGZPersonInfoKit_Example-acknowledgements.plist */,
+				AE017AD3F5DFDF09F53179D5106EE0A8 /* Pods-MGZPersonInfoKit_Example-dummy.m */,
+				90ED3086F194D94F467147CD33C775A1 /* Pods-MGZPersonInfoKit_Example-frameworks.sh */,
+				F0DD8524E102A55DA029050F89AB21D6 /* Pods-MGZPersonInfoKit_Example-Info.plist */,
+				489B81D76C246D6C614C50372F06212F /* Pods-MGZPersonInfoKit_Example-umbrella.h */,
+				BAE6DB187C2762EF4F47E09216A4532E /* Pods-MGZPersonInfoKit_Example.debug.xcconfig */,
+				9A0812828194667F416376F93F088F67 /* Pods-MGZPersonInfoKit_Example.release.xcconfig */,
+			);
+			name = "Pods-MGZPersonInfoKit_Example";
+			path = "Target Support Files/Pods-MGZPersonInfoKit_Example";
+			sourceTree = "<group>";
+		};
+		325A3890069743DE82A0BBE652E0F0D0 /* Pods-MGZPersonInfoKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BC009ACC9B6912D0B14CBBA0CCEBFBDE /* Pods-MGZPersonInfoKit_Tests.modulemap */,
+				81FECD370CDB4C02139C5313AD94F7BD /* Pods-MGZPersonInfoKit_Tests-acknowledgements.markdown */,
+				588E43471402808782AECC84C172BDB4 /* Pods-MGZPersonInfoKit_Tests-acknowledgements.plist */,
+				D95048D0816D142FE985A1813C0EDC9C /* Pods-MGZPersonInfoKit_Tests-dummy.m */,
+				7015F00069B7D779C8B76BC2D4797D98 /* Pods-MGZPersonInfoKit_Tests-Info.plist */,
+				0E70372C3592699D2A2A787AD19C8CAC /* Pods-MGZPersonInfoKit_Tests-umbrella.h */,
+				8E7B2A447B78D85665DED924FE71D14C /* Pods-MGZPersonInfoKit_Tests.debug.xcconfig */,
+				D698C4187310BF968B4B725F06FD45E5 /* Pods-MGZPersonInfoKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-MGZPersonInfoKit_Tests";
+			path = "Target Support Files/Pods-MGZPersonInfoKit_Tests";
+			sourceTree = "<group>";
+		};
+		5793A93E246F253FAA72E7051AAF9EC3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B16FC061F9BC98197C312E108E685B98 /* MGZPersonPrefrenceCategoryKit.modulemap */,
+				3ABDE49F24FC398A8E8015A7EB8A2564 /* MGZPersonPrefrenceCategoryKit.xcconfig */,
+				961204CCD84533F7BF587B8DDBBF8EBF /* MGZPersonPrefrenceCategoryKit-dummy.m */,
+				EE7DDDE2CD4A44CFDECA87013247F099 /* MGZPersonPrefrenceCategoryKit-Info.plist */,
+				D8499B3AF2D78C5F34C3A6240C7006E5 /* MGZPersonPrefrenceCategoryKit-prefix.pch */,
+				24218D3B63040519D5278547CE87FE0E /* MGZPersonPrefrenceCategoryKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MGZPersonPrefrenceCategoryKit";
+			sourceTree = "<group>";
+		};
+		5BF05163DF3DC2B583471501164845FD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D98F705E48B588C33EBF8DB8B292DD20 /* LICENSE */,
+				77EA2B4A4E7EC363B1419F63982F407E /* MGZPersonInfoKit.podspec */,
+				F1A4158E23403A33610751228F49C0D1 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		61BA6926A91F718F70C57B4A0BED2964 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				A3DD6C0029D6B5DB514B1CB452833D0E /* CTMediator.h */,
+				BF886D255AA04EBC6A96E06DF8B1C108 /* CTMediator.m */,
+				DBEC9784FEDC70C633ACA855394A0EAC /* CTMediator+HandyTools.h */,
+				D9E045540623AAFCA3E33B06A058D895 /* CTMediator+HandyTools.m */,
+				F00BB839DBBE0566825E9D90FF285D73 /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		62E7D93CB61CFB3F54352849796820FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */,
+				E82158B737A6F007AD27916286E3A466 /* MGZPersonInfoKit.framework */,
+				3401A7A8DB8B1DA322CC1ECBB00D2843 /* MGZPersonPrefrenceCategoryKit.framework */,
+				686D7B401D4829BC10C303A107CCC082 /* Pods_MGZPersonInfoKit_Example.framework */,
+				9011A5A997A49D967C57080B0CD01C64 /* Pods_MGZPersonInfoKit_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6F1EA8AEF6CDC723014A22844A118BF5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61BA6926A91F718F70C57B4A0BED2964 /* CTMediator */,
+				F15A6FAE3157DFB28EE664101842A606 /* MGZPersonPrefrenceCategoryKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		784992B011B223D68C3642B60173AC5D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				61119824400DD79A8FF103477FBA8F4C /* Foundation.framework */,
+				196AECE50BF7AF933C83594B4E3B7007 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		912E4466704F89DFDE246C957A480AA8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A112E29C9A69B344354F8F9068C983F /* MGZPersonInfoKit.modulemap */,
+				195B1CDD2662171CEE3F986C8BE466A5 /* MGZPersonInfoKit.xcconfig */,
+				F0B5BCC104958D3E862252D189440C75 /* MGZPersonInfoKit-dummy.m */,
+				992376963CA2F2EA10F5A3A138101171 /* MGZPersonInfoKit-Info.plist */,
+				6E433E4A7FF729156A78B9F8FD616FB0 /* MGZPersonInfoKit-prefix.pch */,
+				94A33EA1C3DB0CAA8EF88A4EAD8007B4 /* MGZPersonInfoKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MGZPersonInfoKit";
+			sourceTree = "<group>";
+		};
+		92147C8B9E34A4D35F2C4D95525247E6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				24806D3A9A8F75D19B8974F5E4A56BF5 /* Pods-MGZPersonInfoKit_Example */,
+				325A3890069743DE82A0BBE652E0F0D0 /* Pods-MGZPersonInfoKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A1393A0EBAB508E6773E4F583A36B291 /* TAPersonInfo */ = {
+			isa = PBXGroup;
+			children = (
+				3867AF3188D97260D44E54F2B5C1E30F /* MGZPersonInfoViewController.h */,
+				BF139ABE9585A7C4F326C494C13C7E49 /* MGZPersonInfoViewController.m */,
+				0539B6B7CDAB09FA400E8E47B9FE2F9A /* Target_MGZPersonInfoViewController.h */,
+				92C194FE58D7975C4689FA2EA517D662 /* Target_MGZPersonInfoViewController.m */,
+			);
+			name = TAPersonInfo;
+			path = MGZPersonInfoKit/Classes/TAPersonInfo;
+			sourceTree = "<group>";
+		};
+		B1B721F0AE6ACD188BE7F9A13C8FE0D1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0916C547DA43AABD3E26803F3038B6CE /* MGZPersonInfoKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				B1B721F0AE6ACD188BE7F9A13C8FE0D1 /* Development Pods */,
+				FA2BA165BC618979878F0D9B60429A15 /* Frameworks */,
+				6F1EA8AEF6CDC723014A22844A118BF5 /* Pods */,
+				62E7D93CB61CFB3F54352849796820FA /* Products */,
+				92147C8B9E34A4D35F2C4D95525247E6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		F00BB839DBBE0566825E9D90FF285D73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A776B550BCCA8182F1280DD56D4F33B /* CTMediator.modulemap */,
+				A2413BCA5DE7AC469D70AC3F84D0B12D /* CTMediator.xcconfig */,
+				D5B0BA1BFCE358878AF0D2C32B5EB5C9 /* CTMediator-dummy.m */,
+				EEED5D2B5F6FEC4E81B9F2BDB0CBB625 /* CTMediator-Info.plist */,
+				347CFBC3831D5417B0CB75EF3BE5A42D /* CTMediator-prefix.pch */,
+				7639E5C45AB2097573D5A934C107AE80 /* CTMediator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		F15A6FAE3157DFB28EE664101842A606 /* MGZPersonPrefrenceCategoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				A794F7143292FFC3CEDD9D144ADEC2F9 /* CTMediator+TAPersonPrefrence.h */,
+				582615C2536F9AE888F6577E38BD7747 /* CTMediator+TAPersonPrefrence.m */,
+				7ABA1FEF1EE9F0D1E77DEDFA7C3E8A05 /* ReplaceMe.m */,
+				5793A93E246F253FAA72E7051AAF9EC3 /* Support Files */,
+			);
+			name = MGZPersonPrefrenceCategoryKit;
+			path = MGZPersonPrefrenceCategoryKit;
+			sourceTree = "<group>";
+		};
+		FA2BA165BC618979878F0D9B60429A15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				385A29DF85820F64070E78467ADEDF84 /* CTMediator.framework */,
+				58A22E7F2271364A75F39D4B7C3FA2B3 /* MGZPersonPrefrenceCategoryKit.framework */,
+				784992B011B223D68C3642B60173AC5D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		115E7C8ACA06CBE361419777676B9C48 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A3A726BA37ACDC43642F29A8E1B60BA /* CTMediator+HandyTools.h in Headers */,
+				3B94BEF000168E07EAC82C7A25A21458 /* CTMediator-umbrella.h in Headers */,
+				4F58E17DAF09A3035A146DDDDFEFE84B /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43FBBF4B14D5B6A63635480378203CE1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F76C265DCB1B881C0D235817EE101F52 /* MGZPersonInfoKit-umbrella.h in Headers */,
+				7E8CB15014D6EF9B3E3FFB17DB01BE0F /* MGZPersonInfoViewController.h in Headers */,
+				C6E9F30902396968DF313B98CAA36E66 /* Target_MGZPersonInfoViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B10041B3591FF7A561FABBC56D329AAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4610C7ABAADA32E0B3D394E1464D660C /* Pods-MGZPersonInfoKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF260F4E88861F2F49997E0196B2E217 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76191F0ECC215D5AE64F77A6993B817D /* CTMediator+TAPersonPrefrence.h in Headers */,
+				B313C3D898CCDC260CEA783A19E6273E /* MGZPersonPrefrenceCategoryKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5F3FBBEAA470AB28589D3BA43DDEABA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68273226A71E12A7E668E57B69FF1C29 /* Pods-MGZPersonInfoKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE0457E9249CBF11B87DB7DEEDF0DB2C /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				115E7C8ACA06CBE361419777676B9C48 /* Headers */,
+				F699361B098428FA5FA9F768BF848938 /* Sources */,
+				42843E18D90B50D23BF68315BF9C8CA1 /* Frameworks */,
+				A697C861232D981D33BAA24BF4F99825 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = 68FD71EBA2CC98523D3AACCE8A0D43C8 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9B730EBE3D3F960308B192B15E34B53D /* Pods-MGZPersonInfoKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54243124D041249AE2FF99F2A0351F93 /* Build configuration list for PBXNativeTarget "Pods-MGZPersonInfoKit_Example" */;
+			buildPhases = (
+				E5F3FBBEAA470AB28589D3BA43DDEABA /* Headers */,
+				E2E7F97E8AA2BFD851F4E84E466EC1B6 /* Sources */,
+				4C7D667722E9D4A4A34A32F6CD3048D5 /* Frameworks */,
+				5518B00A36C56450E46D5C38F1F81218 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A081FE1745A9AD27E162F7934F81A458 /* PBXTargetDependency */,
+				314C0C0C41A69D4C28A94DE198EE28F6 /* PBXTargetDependency */,
+				AD063E884694BFAC16EC0EA1F5A655CB /* PBXTargetDependency */,
+			);
+			name = "Pods-MGZPersonInfoKit_Example";
+			productName = "Pods-MGZPersonInfoKit_Example";
+			productReference = 686D7B401D4829BC10C303A107CCC082 /* Pods_MGZPersonInfoKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A104F7E5360CC9D3D920026600B61B21 /* MGZPersonPrefrenceCategoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5FD2FA4852F063D163A3DAC5B1937ABE /* Build configuration list for PBXNativeTarget "MGZPersonPrefrenceCategoryKit" */;
+			buildPhases = (
+				CF260F4E88861F2F49997E0196B2E217 /* Headers */,
+				88688AA599294DE525E3BFCDEE75E71C /* Sources */,
+				125C52B4A0B77EDE6574BFA6FE1C7EB8 /* Frameworks */,
+				F8F20647A2DF7EC7F2613CE64A3B1D1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				701DBB802E959596CBED271D3E3FBBF0 /* PBXTargetDependency */,
+			);
+			name = MGZPersonPrefrenceCategoryKit;
+			productName = MGZPersonPrefrenceCategoryKit;
+			productReference = 3401A7A8DB8B1DA322CC1ECBB00D2843 /* MGZPersonPrefrenceCategoryKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C211DC4CF16E3A1D688143B0675E05E8 /* MGZPersonInfoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B37D87BDB2B1D555169050AD69262811 /* Build configuration list for PBXNativeTarget "MGZPersonInfoKit" */;
+			buildPhases = (
+				43FBBF4B14D5B6A63635480378203CE1 /* Headers */,
+				298CBC3287FBEC82B756D91A5D957187 /* Sources */,
+				B04C3913CA72C7A9836C2587B87BACEB /* Frameworks */,
+				A28D3AB8D606FA694FDFC277E2F8A847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D06E33379EB5F70B1FE38890EB6F31CA /* PBXTargetDependency */,
+				B1C5BCA068089FD7D3B4839E8E022B88 /* PBXTargetDependency */,
+			);
+			name = MGZPersonInfoKit;
+			productName = MGZPersonInfoKit;
+			productReference = E82158B737A6F007AD27916286E3A466 /* MGZPersonInfoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA164B2AF9D4727D72B668ECEEA0C4A0 /* Pods-MGZPersonInfoKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B62ED7ADFEB743797EBA1B08ACEBFEE /* Build configuration list for PBXNativeTarget "Pods-MGZPersonInfoKit_Tests" */;
+			buildPhases = (
+				B10041B3591FF7A561FABBC56D329AAF /* Headers */,
+				B957CEC7F43BD58BE785BF3DB0BE2138 /* Sources */,
+				AF57D0630E38762E430F15302083FBC0 /* Frameworks */,
+				B02D433E485FE374BE6C18BEDE6F3BD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DBAF01AF97B1F10FBBAE1FB4C9B9D307 /* PBXTargetDependency */,
+			);
+			name = "Pods-MGZPersonInfoKit_Tests";
+			productName = "Pods-MGZPersonInfoKit_Tests";
+			productReference = 9011A5A997A49D967C57080B0CD01C64 /* Pods_MGZPersonInfoKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 62E7D93CB61CFB3F54352849796820FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
+				C211DC4CF16E3A1D688143B0675E05E8 /* MGZPersonInfoKit */,
+				A104F7E5360CC9D3D920026600B61B21 /* MGZPersonPrefrenceCategoryKit */,
+				9B730EBE3D3F960308B192B15E34B53D /* Pods-MGZPersonInfoKit_Example */,
+				EA164B2AF9D4727D72B668ECEEA0C4A0 /* Pods-MGZPersonInfoKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5518B00A36C56450E46D5C38F1F81218 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A28D3AB8D606FA694FDFC277E2F8A847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A697C861232D981D33BAA24BF4F99825 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B02D433E485FE374BE6C18BEDE6F3BD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8F20647A2DF7EC7F2613CE64A3B1D1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		298CBC3287FBEC82B756D91A5D957187 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F49914AC09AD6E3E619FC7A31668D982 /* MGZPersonInfoKit-dummy.m in Sources */,
+				257C9C878BC9A3BADEB982455F94A873 /* MGZPersonInfoViewController.m in Sources */,
+				378DECC153C6C863B019AFA51465949C /* ReplaceMe.m in Sources */,
+				3B158F681E64D7EB622C71B568E8F8AE /* Target_MGZPersonInfoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88688AA599294DE525E3BFCDEE75E71C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68209B49239AA261359906CA68C4A905 /* CTMediator+TAPersonPrefrence.m in Sources */,
+				5B09F833B137EA6A53A2B83D8F085635 /* MGZPersonPrefrenceCategoryKit-dummy.m in Sources */,
+				7CDF05853A84B04E83E87923D9F27CB6 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B957CEC7F43BD58BE785BF3DB0BE2138 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E8DDCA315F341CEA717249E89847FE /* Pods-MGZPersonInfoKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2E7F97E8AA2BFD851F4E84E466EC1B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B4F65C043CE8AAC070A8508069B4BC9 /* Pods-MGZPersonInfoKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F699361B098428FA5FA9F768BF848938 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6DE10E33BD76C9B226D73463E9AA8B /* CTMediator+HandyTools.m in Sources */,
+				85E852237B389D98F5348394C67BF004 /* CTMediator-dummy.m in Sources */,
+				4731D4CB78576EAD3C461B2602EEF905 /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		314C0C0C41A69D4C28A94DE198EE28F6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGZPersonInfoKit;
+			target = C211DC4CF16E3A1D688143B0675E05E8 /* MGZPersonInfoKit */;
+			targetProxy = C6BC35EAB6388E4D611A7A971CE60732 /* PBXContainerItemProxy */;
+		};
+		701DBB802E959596CBED271D3E3FBBF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 6B08D32F9105FAD2B4AD6D76D3C53FA6 /* PBXContainerItemProxy */;
+		};
+		A081FE1745A9AD27E162F7934F81A458 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 5C06ABF70E70EA74972BFCCF71C3B318 /* PBXContainerItemProxy */;
+		};
+		AD063E884694BFAC16EC0EA1F5A655CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGZPersonPrefrenceCategoryKit;
+			target = A104F7E5360CC9D3D920026600B61B21 /* MGZPersonPrefrenceCategoryKit */;
+			targetProxy = 651149551F8F2E9CABB91F80DDDA4F37 /* PBXContainerItemProxy */;
+		};
+		B1C5BCA068089FD7D3B4839E8E022B88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MGZPersonPrefrenceCategoryKit;
+			target = A104F7E5360CC9D3D920026600B61B21 /* MGZPersonPrefrenceCategoryKit */;
+			targetProxy = B9BCCC36A420AF97DF8EB041C858C769 /* PBXContainerItemProxy */;
+		};
+		D06E33379EB5F70B1FE38890EB6F31CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 8DDFDC11FB7421866A54F97FD80133A1 /* PBXContainerItemProxy */;
+		};
+		DBAF01AF97B1F10FBBAE1FB4C9B9D307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MGZPersonInfoKit_Example";
+			target = 9B730EBE3D3F960308B192B15E34B53D /* Pods-MGZPersonInfoKit_Example */;
+			targetProxy = 7EB7EBE0BC198F32C1A877A6C14D84E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10D054CF6C80264C8EFC8C74F57259F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABDE49F24FC398A8E8015A7EB8A2564 /* MGZPersonPrefrenceCategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGZPersonPrefrenceCategoryKit/MGZPersonPrefrenceCategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGZPersonPrefrenceCategoryKit/MGZPersonPrefrenceCategoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGZPersonPrefrenceCategoryKit/MGZPersonPrefrenceCategoryKit.modulemap";
+				PRODUCT_MODULE_NAME = MGZPersonPrefrenceCategoryKit;
+				PRODUCT_NAME = MGZPersonPrefrenceCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1B2ADF351E31585A1DC37EBE1D3F253F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195B1CDD2662171CEE3F986C8BE466A5 /* MGZPersonInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGZPersonInfoKit/MGZPersonInfoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGZPersonInfoKit/MGZPersonInfoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGZPersonInfoKit/MGZPersonInfoKit.modulemap";
+				PRODUCT_MODULE_NAME = MGZPersonInfoKit;
+				PRODUCT_NAME = MGZPersonInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		376473024B1C4F00705673D6DA0BA0ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 195B1CDD2662171CEE3F986C8BE466A5 /* MGZPersonInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGZPersonInfoKit/MGZPersonInfoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGZPersonInfoKit/MGZPersonInfoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGZPersonInfoKit/MGZPersonInfoKit.modulemap";
+				PRODUCT_MODULE_NAME = MGZPersonInfoKit;
+				PRODUCT_NAME = MGZPersonInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		49291623120F3FB788FF11FFC3086D2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D698C4187310BF968B4B725F06FD45E5 /* Pods-MGZPersonInfoKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGZPersonInfoKit_Tests/Pods-MGZPersonInfoKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGZPersonInfoKit_Tests/Pods-MGZPersonInfoKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		72783D967A56018EFB2FCDFECF0F27A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAE6DB187C2762EF4F47E09216A4532E /* Pods-MGZPersonInfoKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGZPersonInfoKit_Example/Pods-MGZPersonInfoKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGZPersonInfoKit_Example/Pods-MGZPersonInfoKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		80F814A594AE5FEBA53562574E9CE1DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E7B2A447B78D85665DED924FE71D14C /* Pods-MGZPersonInfoKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGZPersonInfoKit_Tests/Pods-MGZPersonInfoKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGZPersonInfoKit_Tests/Pods-MGZPersonInfoKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D6BDD5D8B1127FACAB7A765B1820DA00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ABDE49F24FC398A8E8015A7EB8A2564 /* MGZPersonPrefrenceCategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MGZPersonPrefrenceCategoryKit/MGZPersonPrefrenceCategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MGZPersonPrefrenceCategoryKit/MGZPersonPrefrenceCategoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MGZPersonPrefrenceCategoryKit/MGZPersonPrefrenceCategoryKit.modulemap";
+				PRODUCT_MODULE_NAME = MGZPersonPrefrenceCategoryKit;
+				PRODUCT_NAME = MGZPersonPrefrenceCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC4766BBA32C3D3299FDB4D9F8526751 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2413BCA5DE7AC469D70AC3F84D0B12D /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E2186A1323292A6CFA2CB0091B68F32A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A0812828194667F416376F93F088F67 /* Pods-MGZPersonInfoKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MGZPersonInfoKit_Example/Pods-MGZPersonInfoKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MGZPersonInfoKit_Example/Pods-MGZPersonInfoKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EDFFC9AE64F3736742A7CA3D44445D02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2413BCA5DE7AC469D70AC3F84D0B12D /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54243124D041249AE2FF99F2A0351F93 /* Build configuration list for PBXNativeTarget "Pods-MGZPersonInfoKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72783D967A56018EFB2FCDFECF0F27A9 /* Debug */,
+				E2186A1323292A6CFA2CB0091B68F32A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B62ED7ADFEB743797EBA1B08ACEBFEE /* Build configuration list for PBXNativeTarget "Pods-MGZPersonInfoKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F814A594AE5FEBA53562574E9CE1DE /* Debug */,
+				49291623120F3FB788FF11FFC3086D2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5FD2FA4852F063D163A3DAC5B1937ABE /* Build configuration list for PBXNativeTarget "MGZPersonPrefrenceCategoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10D054CF6C80264C8EFC8C74F57259F6 /* Debug */,
+				D6BDD5D8B1127FACAB7A765B1820DA00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B37D87BDB2B1D555169050AD69262811 /* Build configuration list for PBXNativeTarget "MGZPersonInfoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B2ADF351E31585A1DC37EBE1D3F253F /* Debug */,
+				376473024B1C4F00705673D6DA0BA0ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE0457E9249CBF11B87DB7DEEDF0DB2C /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFFC9AE64F3736742A7CA3D44445D02 /* Debug */,
+				DC4766BBA32C3D3299FDB4D9F8526751 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

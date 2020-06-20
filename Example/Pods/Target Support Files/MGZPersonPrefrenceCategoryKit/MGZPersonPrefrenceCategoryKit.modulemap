@@ -1,0 +1,6 @@
+framework module MGZPersonPrefrenceCategoryKit {
+  umbrella header "MGZPersonPrefrenceCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

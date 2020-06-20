@@ -1,0 +1,6 @@
+framework module MGZPersonInfoKit {
+  umbrella header "MGZPersonInfoKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
