@@ -1,4 +1,5 @@
 # MGZPersonInfoKit
+<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/xiaomazaitu/MGZPersonInfoKit.svg?style=flat)](https://travis-ci.org/xiaomazaitu/MGZPersonInfoKit)
 [![Version](https://img.shields.io/cocoapods/v/MGZPersonInfoKit.svg?style=flat)](https://cocoapods.org/pods/MGZPersonInfoKit)
@@ -27,3 +28,6 @@ xiaomazaitu, 18514529291@163.com
 ## License
 
 MGZPersonInfoKit is available under the MIT license. See the LICENSE file for more info.
+=======
+组件化测试
+>>>>>>> abb23f3c5ad9fe5b1b6a7a6585a349280452c647
